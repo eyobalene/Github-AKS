@@ -30,6 +30,7 @@ random = {
   version = "~> 3.6"
 }
 }
+/*
 #Terraform Stage storage to AzurerRM storage container
 backend "azurerm" {
   resource_group_name = "terraformRG"
@@ -38,6 +39,7 @@ backend "azurerm" {
   key = "customvnet.terraform.tfstate"
   
 }
+*/
   
 }
 
